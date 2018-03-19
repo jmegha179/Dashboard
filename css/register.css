@@ -1,0 +1,20 @@
+#log
+{ height:500px;
+   width :500px; 
+   background-color:#F5F5F5;
+    border:1px solid;
+    margin-right:700px;
+	border-radius:20px;
+    /* margin-top:10px; */
+    margin-top : 150px; 
+    opacity: 0.8;
+}
+#up
+{
+padding-left:70px;
+padding-right:70px;
+margin-bottom:50px; 
+}
+body{
+    background-image: url(https://i.pinimg.com/originals/5b/a3/ff/5ba3ff952aa272f34a4e112d0b118e20.jpg);
+}

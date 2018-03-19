@@ -1,0 +1,25 @@
+
+#log
+{ height:500px;
+   width :500px; 
+   background-color:#F5F5F5;
+    border:1px solid;
+    margin-right:700px;
+	border-radius:20px;
+
+    margin-top : 150px; 
+    opacity: 0.8;
+}
+#up
+{
+padding-left:70px;
+padding-right:70px;
+margin-bottom:50px; 
+}
+#button
+{
+ color: white;   
+height:50px;
+ width:550x; 
+background-color:#396C78;
+}

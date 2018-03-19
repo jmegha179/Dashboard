@@ -1,0 +1,31 @@
+<head>
+    <link rel="stylesheet" href="..\css\login.css"> 
+   </head>
+
+<body ng-app="login">
+<div id="log">
+<br>
+<br>
+<br>
+
+<form  name = "myForm" id = "up" novalidate> 
+   <h5><center>Login to watch SongList</center></h5><br>
+    <h5>Username<h5> 
+<input type = "text"   name="myName"  ng-model="myName" size =30 placeholder="Enter User Nme"   required>
+<br />
+<span ng-show="myForm.myName.$untouched ">The name is required.</span>
+<br><br>
+Password
+<br> 
+<input type = "password" name = "pass" ng-model="pass" size = 30 placeholder="password***"   required>
+<br>
+<span ng-show="myForm.pass.$untouched">The password is required.</span>
+<br>
+<br>
+<Button type="button" id = "button" value="Login" ng-disabled="myForm.myName.$invalid || myForm.myName.$untouched || myForm.myName.$dirty && myForm.pass.$invalid ||myForm.myName.$untouched" style = "width:370px" onclick =" window.location = 'partial/partial5.html'"  >Login</button>
+<br>
+<br>
+<h5><a href ="" style="color:#396C78;text-decoration:none;">Forget Password </a></h5>
+</form>
+ </div>
+</body>
